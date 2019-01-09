@@ -15,14 +15,13 @@ export default class Header extends Component {
     return (
       <div>
         <header>
-          <Hero isColor="primary">
-            <HeroHeader>
-              <Navbar />
-            </HeroHeader>
+          <Hero isColor="primary" isPaddingless isMarginless>
+            <HeroHeader />
             <HeroBody>
               <Title>MPW</Title>
               <Subtitle>Můj Programovací Web</Subtitle>
             </HeroBody>
+            <Navbar />
           </Hero>
         </header>
       </div>

@@ -1,0 +1,21 @@
+.projekty {
+  .arial {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .card-content {
+    padding-top: 10px;
+    padding-bottom: 0
+  }
+
+  .projekt {
+
+    padding: 10px;
+    transition: ease 0.3s all;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.06);
+    }
+  }
+}
